@@ -18,3 +18,10 @@ todas_as_iniciais_maiusculo=bool(leitor.istitle())
 print(f"topo de variavel {tipo}")
 print(f"contem números{numero}\n contem letras{letra}\n contem letras com numeros{letra_numero}\n E maiuscula{maiusculo}\n É minusculo {todas_as_iniciais_maiusculo}")
 '''
+'''
+segunda forma 
+
+a=input("Digite algo:")
+print(f"O tipo primitivo de {a} é:",type(a),f"{a} é alfabético?",a.isalpha(),f"{a} é numérico?",a.isnumeric(),f"{a} é alpha numérico?",a.isalnum())
+'''
+    
